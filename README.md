@@ -29,11 +29,9 @@ The system shows three things working end to end:
 2. **Even if the same payment reaches the backend simultaneously through multiple bridge nodes, it settles exactly once.** (Idempotency via atomic compare-and-set on the ciphertext hash.)
 3. **A tampered or replayed packet is rejected** before it touches the ledger.
 
-You'll see all three in the dashboard.
+We'll see all three in the dashboard.
 
 ---
-
-## How to run it
 
 ### Prerequisites
 
@@ -400,6 +398,3 @@ For a college / portfolio project: name the concept honestly as **"mesh-routed d
 
 ---
 
-## License
-
-Demo code, no license. Use it however you want for learning.
